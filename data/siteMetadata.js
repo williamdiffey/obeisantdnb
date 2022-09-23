@@ -4,7 +4,7 @@ const siteMetadata = {
   headerTitle: 'Obeisant DnB',
   description: 'Mixing, Mastering, Production - Obeisant DnB',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: '',
   siteRepo: '',
   siteLogo: '/static/images/logo.png',
