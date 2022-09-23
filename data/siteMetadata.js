@@ -11,11 +11,12 @@ const siteMetadata = {
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
   email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  spotify: '',
+  soundcloud: '',
+  facebook: 'https://facebook.comhttps://www.facebook.com/obeisantdnb',
+  youtube: 'https://www.youtube.com/channel/UCSOM2Lj3fI5GMJYuq2woSuQ',
+  linkedin:
+    'https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.obeisantdnb.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fsebastian-gawlik-a36a676b%2F',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
