@@ -47,11 +47,23 @@ export default function Home({ posts }) {
         <Link href="/tuition" className="text-lime-400">
           Tuition{' '}
         </Link>
-        or hit the button below to get in touch and give your music the polish it deserves.
+        or{' '}
+        <Link href="contact" className="text-lime-400">
+          Get in Touch
+        </Link>{' '}
+        to discuss your bespoke requirements.
       </p>
 
       <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-        Let's do this
+        <Link href="/mastering">Mastering</Link>
+      </button>
+
+      <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+        <Link href="/tuition">Tuition</Link>
+      </button>
+
+      <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+        <Link href="/contact">Get in touch</Link>
       </button>
     </>
   )
