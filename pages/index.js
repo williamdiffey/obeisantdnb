@@ -40,7 +40,7 @@ export default function Home({ posts }) {
         quality Mixing & Mastering services through a well-trained ear. He uses the best industry
         leading tools, with a selection of specialty hardware that can be used for added colour and
         flare upon request. <br /> <br /> Check out our{' '}
-        <Link href="/blog" className="text-lime-400">
+        <Link href="/services" className="text-lime-400">
           services{' '}
         </Link>
         or hit the button below to get in touch and give your music the polish it deserves.

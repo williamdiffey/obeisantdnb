@@ -20,7 +20,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-          Services
+          Media
         </h1>
         {/* <div className="space-y-2 pt-6 pb-8 md:space-y-5">
           <h1 className="text-1xl leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-3xl sm:leading-10 md:text-xl md:leading-14">
