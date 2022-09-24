@@ -28,6 +28,9 @@ export default function Tuition() {
           mixing & mastering, electronic production & more In depth tuition, from beginner to
           advanced. Learn how to produce EDM / Electronica / DnB. All prices are GST inclusive
           _______ 1 hr – $85.00 NZD 1.5 hr – $120.00 NZD 2.0 hr – $150.00 NZD
+          <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+            Let's do this
+          </button>
         </div>
       </div>
     </>
