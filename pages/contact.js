@@ -1,0 +1,46 @@
+import Link from '@/components/Link'
+import { PageSEO } from '@/components/SEO'
+import siteMetadata from '@/data/siteMetadata'
+
+export default function Contact() {
+  return (
+    <>
+      <PageSEO title={`Contact`} />
+      <h1 className="text-center text-4xl font-extrabold uppercase leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+        Contact Us
+      </h1>
+      <p className="my-3 text-center">
+        Whatever your needs, submit a message below and we'll get right back to you
+      </p>
+
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        className="flex flex-col flex-wrap content-center"
+      >
+        <input
+          className=""
+          type="hidden"
+          name="access_key"
+          value="1217a262-e5d9-4263-9b0b-836a13b1a3d9"
+        />
+        <p>Name:</p>
+        <input type="text" name="name" required className="mb-5 w-9/12 rounded-md" />
+        <p>Email</p>
+        <input type="email" name="email" required className="mb-5 w-9/12 rounded-md" />
+        <p>Message</p>
+        <textarea name="message" required></textarea>
+        <input
+          type="hidden"
+          name="redirect"
+          value="https://web3forms.com/success"
+          className="mb-5 w-9/12 rounded-md"
+        />
+
+        <button className="mt-8 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+          Submit
+        </button>
+      </form>
+    </>
+  )
+}
