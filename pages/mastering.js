@@ -5,61 +5,123 @@ import siteMetadata from '@/data/siteMetadata'
 export default function FourZeroFour() {
   return (
     <>
-      <PageSEO title={`Mixing & Mastering`} />
-      <div className="flex flex-col items-start justify-start md:mt-24 md:flex-row md:items-center md:justify-center md:space-x-6">
+      <PageSEO title={`Audio Services`} />
+      <div>
         <div className="space-x-2 pt-6 pb-8 md:space-y-5">
-          <p>All prices are GST inclusive </p>
-          <h1>Mastering</h1>
-          <p> 1 track $92.00 NZD </p>
-          <p>2 tracks $165.00 NZD 3 tracks $240.00 </p>
-          <p> NZD 4 tracks $310.00 NZD New Pre-master/Export $29.00 NZD </p>
-
-          <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-            Let's do this
-          </button>
-
-          <h2>Stem Mastering</h2>
-          <p>Stem Mastering up to 8 stems of the song: $130.00 – $210.00 NZD </p>
-
-          <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-            Get things started
-          </button>
-
-          <h2>The Works</h2>
+          <h1 className="text-center text-4xl font-extrabold uppercase leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+            Audio Services
+          </h1>
+          <div className="my-5">
+            <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+              Mastering
+            </h2>
+            <p className="my-3">
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+              egestas. Fusce sit amet congue ipsum. Donec at mi tortor. Vestibulum eget varius nisi.
+              Pellentesque eleifend vestibulum velit nec tincidunt. Donec rhoncus nulla vel lacus
+              rhoncus bibendum.
+            </p>
+            <ul className="list-inside list-disc">
+              <li>1 track $92.00 NZD</li>
+              <li>2 tracks $165.00 NZD</li>
+              <li>3 tracks $240.00 NZD</li>
+              <li>4 tracks $310.00 NZD </li>
+              <li>New Pre-master/Export $29.00 NZD </li>
+            </ul>
+          </div>
           <p>
-            Mix your song from the ground up AND give it the final mastering polish, for maximum
-            sonic control and best possible end result. No track count limit. The rate depends on
-            the amount of stems. For a quote, please send stem count and a reference mix.{' '}
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+              Let's do this
+            </button>
           </p>
-
-          <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-            Make your music shine
-          </button>
-
-          <h2>Other Services Mix </h2>
-          <h2>Master & Track Feedback </h2>
+          <hr />
+          <div className="my-5">
+            <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+              Stem Mastering
+            </h2>
+            <p className="my-3">
+              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+              egestas. Fusce sit amet congue ipsum. Donec at mi tortor. Vestibulum eget varius nisi.
+              Pellentesque eleifend vestibulum velit nec tincidunt. Donec rhoncus nulla vel lacus
+              rhoncus bibendum.
+            </p>
+            <ul className="list-inside list-disc">
+              <li>Up to 8 stems: $130.00 – $210.00 NZD</li>
+              <li>Or get in touch for a bespoke quote</li>
+            </ul>
+          </div>
           <p>
-            A detailed feedback, review and summary of how your track is performing in either the
-            Mix, Master and Arrangement/Composition to achieve best results. Mixdown and arrangement
-            suggestions for mastering, as well as commenting on your mastering if applicable. Price
-            is GST inclusive $30 NZD per track Get a Free Quote{' '}
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+              Let's do this
+            </button>
           </p>
+          <hr />
 
-          <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-            Let's talk
-          </button>
-
-          <h2>Physical Studio Time </h2>
+          <div className="my-5">
+            <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+              The Works
+            </h2>
+            <p className="my-3">
+              Mix your song from the ground up AND give it the final mastering polish, for maximum
+              sonic control and best possible end result. No track count limit. The rate depends on
+              the amount of stems. For a quote, please send stem count and a reference mix.{' '}
+            </p>
+            <ul className="list-inside list-disc">
+              <li>From $220 NZD</li>
+            </ul>
+          </div>
           <p>
-            Wanting to sample some synths? Have a hands on tutorial with analog gear? Run some audio
-            through analog gear? Book in physical studio time with me. Alternatively, see here for
-            tuition options. All prices are GST inclusive $85 – $175 NZD per hour depending on the
-            work. Get a Free Quote{' '}
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+              Let's do this
+            </button>
           </p>
-          <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-            Have a chat
-          </button>
+          <hr />
+
+          <div className="my-5">
+            <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+              Master & Track Feedback
+            </h2>
+            <p className="my-3">
+              A detailed feedback, review and summary of how your track is performing in either the
+              Mix, Master and Arrangement/Composition to achieve best results. Mixdown and
+              arrangement suggestions for mastering, as well as commenting on your mastering if
+              applicable.
+            </p>
+            <ul className="list-inside list-disc">
+              <li> $30 NZD per track</li>
+            </ul>
+          </div>
+          <p>
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+              Let's do this
+            </button>
+          </p>
+          <hr />
+
+          <div className="my-5">
+            <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+              Physical Studio Time
+            </h2>
+            <p className="my-3">
+              Wanting to sample some synths? Have a hands on tutorial with analog gear? Run some
+              audio through analog gear? Book in physical studio time with me. Alternatively, see{' '}
+              <Link className="text-lime-400" href="/tuition">
+                here
+              </Link>{' '}
+              for tuition options.
+            </p>
+            <ul className="list-inside list-disc">
+              <li>$85 – $175 NZD per hour depending on the work.</li>
+            </ul>
+          </div>
+          <p>
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+              Let's do this
+            </button>
+          </p>
+          <hr />
         </div>
+        <p className="font-emphasis text-center">All prices are GST inclusive </p>
       </div>
     </>
   )

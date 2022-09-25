@@ -26,7 +26,7 @@ export default function Home({ posts }) {
 
       <div className="grid">
         <div className="ml-auto mr-auto">
-          <Image src="/static/images/FPlogo.png" alt="logo" width={550} height={600} />
+          <Image src="/static/images/FPlogo.png" alt="logo" width={100} height={125} />
         </div>
       </div>
 
@@ -54,16 +54,16 @@ export default function Home({ posts }) {
         to discuss your bespoke requirements.
       </p>
 
-      <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+      {/* <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
         <Link href="/mastering">Mastering</Link>
       </button>
 
       <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
         <Link href="/tuition">Tuition</Link>
-      </button>
+      </button> */}
 
       <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-        <Link href="/contact">Get in touch</Link>
+        <Link href="/contact">Let's do this</Link>
       </button>
     </>
   )
