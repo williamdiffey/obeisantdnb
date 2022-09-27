@@ -22,7 +22,7 @@ export default function Contact() {
           className=""
           type="hidden"
           name="access_key"
-          value="1217a262-e5d9-4263-9b0b-836a13b1a3d9"
+          value="35a6fa66-c023-4b7a-ad17-f482d6255867"
         />
         <p>Name:</p>
         <input type="text" name="name" required className="mb-5 w-9/12 rounded-md" />
