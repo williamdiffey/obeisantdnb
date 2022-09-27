@@ -19,7 +19,13 @@ const LayoutWrapper = ({ children }) => {
                 <div className="mr-3 mt-2">
                   {/* <Logo /> */}
 
-                  <Image src="/static/images/logo.png" alt="" width={500} height={60} />
+                  <Image
+                    className="shrink-0"
+                    src="/static/images/logo.png"
+                    alt=""
+                    width={500}
+                    height={60}
+                  />
                 </div>
                 {/* {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">

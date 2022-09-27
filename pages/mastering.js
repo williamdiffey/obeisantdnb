@@ -8,7 +8,7 @@ export default function FourZeroFour() {
       <PageSEO title={`Audio Services`} />
       <div>
         <div className="space-x-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-center text-4xl font-extrabold uppercase leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="text-center text-3xl font-bold uppercase leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Audio Services
           </h1>
           <div className="my-5">
