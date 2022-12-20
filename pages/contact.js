@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
       <PageSEO title={`Contact`} />
-      <h1 className="text-center text-3xl font-bold uppercase leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+      <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
         Contact Us
       </h1>
       <p className="my-3 text-center">

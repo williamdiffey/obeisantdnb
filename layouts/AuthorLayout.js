@@ -10,7 +10,7 @@ export default function AuthorLayout({ children, frontMatter }) {
       <PageSEO title={`About - ${name}`} description={`About me - ${name}`} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-center text-3xl font-bold uppercase leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Who is Obeisant?
           </h1>
         </div>
@@ -20,7 +20,7 @@ export default function AuthorLayout({ children, frontMatter }) {
               src={avatar}
               alt="avatar"
               width="192px"
-              height="192px"
+              height="230px"
               className="h-48 w-48 rounded-full"
             />
             {/* <h3 className="pt-4 pb-2 text-2xl   leading-8 tracking-tight">{name}</h3>

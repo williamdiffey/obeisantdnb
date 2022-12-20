@@ -20,6 +20,11 @@ export default function Blog({ posts, initialDisplayPosts, pagination }) {
   return (
     <>
       <PageSEO title={`Blog - ${siteMetadata.author}`} description={siteMetadata.description} />
+      <p>
+        <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+          Contact Now
+        </button>
+      </p>
       <ListLayout
         posts={posts}
         initialDisplayPosts={initialDisplayPosts}
@@ -27,6 +32,11 @@ export default function Blog({ posts, initialDisplayPosts, pagination }) {
         title="Updates
         "
       />
+      <p>
+        <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+          Contact Now
+        </button>
+      </p>
     </>
   )
 }

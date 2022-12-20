@@ -8,19 +8,24 @@ export default function FourZeroFour() {
       <PageSEO title={`Audio Services`} />
       <div>
         <div className="space-x-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-center text-3xl font-bold uppercase leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <p>
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+              Contact Now
+            </button>
+          </p>
+          <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Audio Services
           </h1>
           <div className="my-5">
             <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
               Mastering
             </h2>
-            <p className="my-3">
+            {/* <p className="my-3">
               Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
               egestas. Fusce sit amet congue ipsum. Donec at mi tortor. Vestibulum eget varius nisi.
               Pellentesque eleifend vestibulum velit nec tincidunt. Donec rhoncus nulla vel lacus
               rhoncus bibendum.
-            </p>
+            </p> */}
             <ul className="list-inside list-disc">
               <li>1 track $92.00 NZD</li>
               <li>2 tracks $165.00 NZD</li>
@@ -29,32 +34,22 @@ export default function FourZeroFour() {
               <li>New Pre-master/Export $29.00 NZD </li>
             </ul>
           </div>
-          <p>
-            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-              Let's do this
-            </button>
-          </p>
           <hr />
           <div className="my-5">
             <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
               Stem Mastering
             </h2>
-            <p className="my-3">
+            {/* <p className="my-3">
               Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
               egestas. Fusce sit amet congue ipsum. Donec at mi tortor. Vestibulum eget varius nisi.
               Pellentesque eleifend vestibulum velit nec tincidunt. Donec rhoncus nulla vel lacus
               rhoncus bibendum.
-            </p>
+            </p> */}
             <ul className="list-inside list-disc">
               <li>Up to 8 stems: $130.00 – $210.00 NZD</li>
               <li>Or get in touch for a bespoke quote</li>
             </ul>
           </div>
-          <p>
-            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-              Let's do this
-            </button>
-          </p>
           <hr />
 
           <div className="my-5">
@@ -70,11 +65,6 @@ export default function FourZeroFour() {
               <li>From $220 NZD</li>
             </ul>
           </div>
-          <p>
-            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-              Let's do this
-            </button>
-          </p>
           <hr />
 
           <div className="my-5">
@@ -91,11 +81,6 @@ export default function FourZeroFour() {
               <li> $30 NZD per track</li>
             </ul>
           </div>
-          <p>
-            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-              Let's do this
-            </button>
-          </p>
           <hr />
 
           <div className="my-5">
@@ -114,12 +99,12 @@ export default function FourZeroFour() {
               <li>$85 – $175 NZD per hour depending on the work.</li>
             </ul>
           </div>
+          <hr />
           <p>
             <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-              Let's do this
+              Contact Now
             </button>
           </p>
-          <hr />
         </div>
         <p className="font-emphasis text-center">All prices are GST inclusive </p>
       </div>

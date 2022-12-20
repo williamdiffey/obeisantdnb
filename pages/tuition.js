@@ -8,9 +8,15 @@ export default function Tuition() {
       <PageSEO title={`Tuition`} />
       <div>
         <div className="space-x-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-center text-3xl font-bold uppercase leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <p>
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+              Contact Now
+            </button>
+          </p>
+          <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Tuition
           </h1>
+
           <div className="my-5">
             <p className="my-3">
               Sebastian possesses years of one-to-one tuition and workshop hosting experience, with
@@ -46,14 +52,13 @@ export default function Tuition() {
               <li className="my-2">The art of sampling</li>
               <li>Music-theory hacks for computer music production and basic music-theory</li>
               <li className="my-2">
-                If you don’t see what you’re looking for, please make an enquiry, and I’m sure I can
-                help you out.
+                Don’t see what you’re looking for? Make an enquiry and I’m sure we can help you out!
               </li>
             </ul>
           </div>
           <p>
             <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
-              Let's do this
+              Contact Now
             </button>
           </p>
           <hr />

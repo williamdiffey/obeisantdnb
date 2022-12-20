@@ -10,9 +10,14 @@ export default function Projects() {
       <PageSEO title={`Projects - ${siteMetadata.author}`} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
         <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-          <h1 className="text-center text-3xl font-bold uppercase leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Discography
           </h1>
+          <p>
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+              Contact Now
+            </button>
+          </p>
           {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Recent Releases from Obeisant
           </p> */}
@@ -30,6 +35,11 @@ export default function Projects() {
             ))}
           </div>
         </div>
+        <p>
+          <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+            Contact Now
+          </button>
+        </p>
         <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
           <Link href="/">Back Home</Link>
         </button>

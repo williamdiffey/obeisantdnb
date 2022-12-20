@@ -12,10 +12,22 @@ export default function About({ authorDetails }) {
   const { mdxSource, frontMatter } = authorDetails
 
   return (
-    <MDXLayoutRenderer
-      layout={frontMatter.layout || DEFAULT_LAYOUT}
-      mdxSource={mdxSource}
-      frontMatter={frontMatter}
-    />
+    <div>
+      <p>
+        <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+          Contact Now
+        </button>
+      </p>
+      <MDXLayoutRenderer
+        layout={frontMatter.layout || DEFAULT_LAYOUT}
+        mdxSource={mdxSource}
+        frontMatter={frontMatter}
+      />
+      <p>
+        <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+          Contact Now
+        </button>
+      </p>
+    </div>
   )
 }
