@@ -24,8 +24,7 @@ export default function Home({ posts }) {
         Obeisant
       </h1> */}
 
-      <div className="grid"></div>
-      <div className="bg-black">
+      <div className="bg-black ">
         <Image
           src="/static/images/SebSpire.jpg"
           alt="photo of Seb in front of a spire"
@@ -33,14 +32,21 @@ export default function Home({ posts }) {
           height={2621}
         />
       </div>
-      <h3 className="text-center text-lg text-lime-400">Mixing, Mastering, Tuition</h3>
 
-      <div>
-        <div className="">
-          <Image src="/static/images/FPlogo.png" alt="logo" width={100} height={117} />
+      <h3 className="text-l py-4 text-center uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
+        Mixing, Mastering, Tuition
+      </h3>
+
+      <div className="ml-auto mr-auto block w-1/4 p-2 md:hidden lg:hidden">
+        <Image src="/static/images/FPlogo.png" alt="logo" width={1667} height={2005} />
+      </div>
+
+      <div className="flex flex-row">
+        <div className="hidden place-items-center p-3 md:flex">
+          <Image src="/static/images/FPlogo.png" alt="logo" width={1667} height={2005} />
         </div>
 
-        <p className="text-md mt-5 mb-10">
+        <div className="text-md mt-5 mb-10">
           "Obeisant (Sebastian Gawlik) is a Drum ‘n’ Bass and Electronica Producer, Recording,
           Mixing, & Mastering Engineer, and Educator from Hamilton, New Zealand. Sebastian promises
           top quality Mixing & Mastering services through a well-trained ear. He uses the best
@@ -48,9 +54,9 @@ export default function Home({ posts }) {
           colour and flare upon request."
           <br /> <br /> Check out our{' '}
           <Link href="/mastering" className="text-lime-400">
-            Mixing & Mastering Services{' '}
+            Mixing & Mastering Services,{' '}
           </Link>
-          or up your skills with some{' '}
+          up your skills with some{' '}
           <Link href="/tuition" className="text-lime-400">
             Tuition{' '}
           </Link>
@@ -59,7 +65,7 @@ export default function Home({ posts }) {
             Get in Touch
           </Link>{' '}
           to discuss your bespoke requirements.
-        </p>
+        </div>
       </div>
 
       <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">

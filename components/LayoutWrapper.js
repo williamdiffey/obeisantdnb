@@ -16,15 +16,15 @@ const LayoutWrapper = ({ children }) => {
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
-                <div className="mr-3 mt-2">
+                <div className="mr-3 sm:hidden md:flex">
                   {/* <Logo /> */}
 
                   <Image
                     className="shrink-0"
                     src="/static/images/logo.png"
-                    alt=""
-                    width={500}
-                    height={60}
+                    alt="obeisant logo"
+                    width={4697}
+                    height={683}
                   />
                 </div>
                 {/* {typeof siteMetadata.headerTitle === 'string' ? (
@@ -43,7 +43,7 @@ const LayoutWrapper = ({ children }) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="p-1 font-extralight uppercase text-gray-900 dark:text-gray-100 sm:p-4"
+                  className="flex-col p-1 font-extralight uppercase text-gray-900 dark:text-gray-100 sm:px-1 md:px-2"
                 >
                   {link.title}
                 </Link>
