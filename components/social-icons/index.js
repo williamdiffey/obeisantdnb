@@ -4,6 +4,11 @@ import Facebook from './facebook.svg'
 import Youtube from './youtube.svg'
 import Linkedin from './linkedin.svg'
 import Twitter from './twitter.svg'
+import Soundcloud from './soundcloud.svg'
+import Instagram from './instagram.svg'
+import Mixcloud from './mixcloud.svg'
+import Spotify from './spotify.svg'
+import Bandcamp from './bandcamp.svg'
 
 // Icons taken from: https://simpleicons.org/
 
@@ -14,6 +19,11 @@ const components = {
   youtube: Youtube,
   linkedin: Linkedin,
   twitter: Twitter,
+  soundcloud: Soundcloud,
+  mixcloud: Mixcloud,
+  spotify: Spotify,
+  instagram: Instagram,
+  bandcamp: Bandcamp,
 }
 
 const SocialIcon = ({ kind, href, size = 8 }) => {

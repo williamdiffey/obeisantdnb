@@ -24,27 +24,30 @@ export default function Home({ posts }) {
         Obeisant
       </h1> */}
 
-      <div className="bg-black ">
+      {/* <div className="flex justify-center">
         <Image
+          className="rounded-xl"
           src="/static/images/SebSpire.jpg"
           alt="photo of Seb in front of a spire"
-          width={3931}
-          height={2621}
+          width={400}
+          height={260}
         />
+      </div> */}
+
+      {/* mobile logo */}
+      <div className="ml-auto mr-auto block w-1/4 animate-flicker">
+        <Image src="/static/images/FPlogo.png" alt="logo" width={200} height={230} />
       </div>
 
-      <h3 className="text-l py-4 text-center uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-3xl md:leading-14">
-        Mixing, Mastering, Tuition
-      </h3>
+      <h1 className="text-1 animate-glitch py-4 text-center uppercase leading-10 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-xl md:leading-14">
+        Mixing | Mastering | Tuition
+      </h1>
 
-      <div className="ml-auto mr-auto block w-1/4 p-2 md:hidden lg:hidden">
-        <Image src="/static/images/FPlogo.png" alt="logo" width={1667} height={2005} />
-      </div>
-
-      <div className="flex flex-row">
-        <div className="hidden place-items-center p-3 md:flex">
-          <Image src="/static/images/FPlogo.png" alt="logo" width={1667} height={2005} />
-        </div>
+      {/* desktop logo */}
+      <div className="flex">
+        {/* <div className="hidden place-items-center p-3 md:flex">
+          <Image src="/static/images/FPlogo.png" alt="logo" width={100} height={115} />
+        </div> */}
 
         <div className="text-md mt-5 mb-10">
           "Obeisant (Sebastian Gawlik) is a Drum ‘n’ Bass and Electronica Producer, Recording,

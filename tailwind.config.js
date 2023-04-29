@@ -1,5 +1,6 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
 const colors = require('tailwindcss/colors')
+const { transform } = require('esbuild')
 
 module.exports = {
   experimental: {
@@ -15,6 +16,48 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
+      keyframes: {
+        // glitch: {
+        //   '0%, 100%': { clippath: 'inset(40% 0 61% 0)' },
+        //   '41.99%': { clippath: 'inset(92% 0 1% 0)' },
+        //   '42%': { clippath: 'inset(92% 0 1% 0)' },
+        //   '43%': { clippath: 'inset(43% 0 1% 0)' },
+        //   '43.01%': { clippath: 'inset(0% 0 58% 0)' },
+        //   '47.99%': { clippath: 'inset(58% 0 43% 0)' },
+        //   '48%': { clippath: 'inset(28% 0 93% 0)' },
+        //   '49%': { clippath: 'inset(0% 0 100% 0)' },
+        //   '49.01%': { clippath: 'inset(100% 0 0% 0)' },
+        // },
+
+        flicker: {
+          '0%': { opacity: '1' },
+          '5%': { opacity: '0.34769' },
+          '10%': { opacity: '0.23604' },
+          '15%': { opacity: '0.90626' },
+          '20%': { opacity: '0.18128' },
+          '25%': { opacity: '0.83891' },
+          '30%': { opacity: '0.65583' },
+          '35%': { opacity: '0.67807' },
+          '40%': { opacity: '0.26559' },
+          '45%': { opacity: '0.84693' },
+          '50%': { opacity: '0.96019' },
+          '55%': { opacity: '0.08594' },
+          '60%': { opacity: '0.20313' },
+          '65%': { opacity: '0.71988' },
+          '70%': { opacity: '0.53455' },
+          '75%': { opacity: '0.37288' },
+          '80%': { opacity: '0.71428' },
+          '85%': { opacity: '0.70419' },
+          '90%': { opacity: '0.7003' },
+          '95%': { opacity: '0.36108' },
+          '100%': { opacity: '1' },
+        },
+      },
+
+      animation: {
+        flicker: 'flicker 20s ease-in-out infinite',
+      },
+
       spacing: {
         '9/16': '56.25%',
       },
