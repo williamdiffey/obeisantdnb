@@ -18,9 +18,9 @@ export default function Projects() {
               Contact Now
             </button>
           </p>
-          {/* <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
+          <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
             Recent Releases from Obeisant
-          </p> */}
+          </p>
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">

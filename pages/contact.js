@@ -5,7 +5,7 @@ import siteMetadata from '@/data/siteMetadata'
 export default function Contact() {
   return (
     <>
-      <PageSEO title={`Contact`} />
+      <PageSEO title={`Contact`} description={siteMetadata.description} />
       <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
         Contact Us
       </h1>
@@ -25,11 +25,11 @@ export default function Contact() {
           value="35a6fa66-c023-4b7a-ad17-f482d6255867"
         />
         <p>Name:</p>
-        <input type="text" name="name" required className="mb-5 w-9/12 rounded-md" />
+        <input type="text" name="name" required className="mb-5 w-9/12 rounded-md text-black" />
         <p>Email</p>
-        <input type="email" name="email" required className="mb-5 w-9/12 rounded-md" />
+        <input type="email" name="email" required className="mb-5 w-9/12 rounded-md text-black" />
         <p>Message</p>
-        <textarea name="message" required></textarea>
+        <textarea name="message" required className="rounded-md text-black"></textarea>
         <input
           type="hidden"
           name="redirect"

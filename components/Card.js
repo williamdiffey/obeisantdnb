@@ -16,7 +16,7 @@ const Card = ({ title, description, imgSrc, href }) => (
               src={imgSrc}
               className="object-cover object-center md:h-36 lg:h-48"
               width={544}
-              height={306}
+              height={544}
             />
           </Link>
         ) : (
@@ -29,15 +29,15 @@ const Card = ({ title, description, imgSrc, href }) => (
           />
         ))}
       {/* <div className="p-6"> */}
-      {/* <h2 className="mb-3 text-2xl leading-8 tracking-tight">
-          {href ? (
-            <Link href={href} aria-label={`Link to ${title}`}>
-              {title}
-            </Link>
-          ) : (
-            title
-          )}
-        </h2> */}
+      <h2 className="mb-3 text-center text-2xl leading-8 tracking-tight">
+        {href ? (
+          <Link href={href} aria-label={`Link to ${title}`}>
+            {title}
+          </Link>
+        ) : (
+          title
+        )}
+      </h2>
       {/* <p className="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">{description}</p> */}
       {/* {href && (
           <Link

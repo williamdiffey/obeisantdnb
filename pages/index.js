@@ -24,7 +24,7 @@ export default function Home({ posts }) {
         Obeisant
       </h1> */}
 
-      {/* <div className="flex justify-center">
+      <div className="flex justify-center">
         <Image
           className="rounded-xl"
           src="/static/images/SebSpire.jpg"
@@ -32,12 +32,12 @@ export default function Home({ posts }) {
           width={400}
           height={260}
         />
-      </div> */}
+      </div>
 
       {/* mobile logo */}
-      <div className="ml-auto mr-auto block w-1/4 animate-flicker">
+      {/* <div className="ml-auto mr-auto block w-1/4 animate-flicker">
         <Image src="/static/images/FPlogo.png" alt="logo" width={200} height={230} />
-      </div>
+      </div> */}
 
       <h1 className="text-1 animate-glitch py-4 text-center uppercase leading-10 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-xl md:leading-14">
         Mixing | Mastering | Tuition
