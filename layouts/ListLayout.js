@@ -76,7 +76,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
                         ))}
                       </div> */}
                     </div>
-                    <div className="prose max-w-none px-6 text-gray-500 dark:text-gray-400">
+                    <div className="prose max-w-none px-6 font-thin leading-normal text-gray-500 dark:text-gray-400">
                       {summary}
                       <div>
                         <Link

@@ -50,14 +50,13 @@ export default function Home({ posts }) {
         </div> */}
 
         <div className="text-md mt-2 mb-4 px-7 font-thin leading-tight">
-          "Obeisant (Sebastian Gawlik) is a Drum ‘n’ Bass and Electronica Producer, Recording,
-          Mixing, & Mastering Engineer, and Educator from Hamilton, New Zealand. Sebastian promises
-          top quality Mixing & Mastering services through a well-trained ear. He uses the best
-          industry leading tools, with a selection of specialty hardware that can be used for added
-          colour and flare upon request."
+          Obeisant (Sebastian Gawlik) is a Drum n Bass and Electronica Producer, Recording, Mixing,
+          & Mastering Engineer, and Educator from Hamilton, NZ. Sebastian promises top quality
+          Mixing & Mastering services using the industry leading tools, with a selection of
+          specialty hardware that can be used for added colour and flare.
           <br /> <br /> Check out our{' '}
           <Link href="/mastering" className="text-lime-400">
-            Mixing & Mastering Services,{' '}
+            Mixing & Mastering,{' '}
           </Link>
           up your skills with some{' '}
           <Link href="/tuition" className="text-lime-400">
@@ -67,7 +66,7 @@ export default function Home({ posts }) {
           <Link href="contact" className="text-lime-400">
             Get in Touch
           </Link>{' '}
-          to discuss your bespoke requirements.
+          to discuss bespoke projects.
         </div>
       </div>
 

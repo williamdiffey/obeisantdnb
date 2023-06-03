@@ -13,12 +13,12 @@ export default function Tuition() {
               Contact Now
             </button>
           </p>
-          <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="py-2 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Tuition
           </h1>
 
-          <div className="my-5">
-            <p className="my-3">
+          <div className="font-thin">
+            <p className="my-3 text-justify leading-tight">
               Sebastian possesses years of one-to-one tuition and workshop hosting experience, with
               a clear, well-rounded manner of communication, explanation, and examples given.
               Sebastian will teach and provide you with what you need to know, in an effortless way

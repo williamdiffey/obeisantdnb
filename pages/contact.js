@@ -9,14 +9,14 @@ export default function Contact() {
       <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
         Contact Us
       </h1>
-      <p className="my-2 px-7">
+      <p className="my-2 px-10 font-thin">
         Whatever your needs, submit a message below and we'll get right back to you
       </p>
 
       <form
         action="https://api.web3forms.com/submit"
         method="POST"
-        className="flex flex-col flex-wrap content-center"
+        className="flex w-full flex-col flex-wrap content-center"
       >
         <input
           className=""
@@ -24,17 +24,17 @@ export default function Contact() {
           name="access_key"
           value="35a6fa66-c023-4b7a-ad17-f482d6255867"
         />
-        <p>Name:</p>
-        <input type="text" name="name" required className="mb-5 w-9/12 rounded-md text-black" />
+        <p>Name</p>
+        <input type="text" name="name" required className="mb-2 rounded-md text-black" />
         <p>Email</p>
-        <input type="email" name="email" required className="mb-5 w-9/12 rounded-md text-black" />
+        <input type="email" name="email" required className="mb-2 rounded-md text-black" />
         <p>Message</p>
-        <textarea name="message" required className="rounded-md text-black"></textarea>
+        <textarea name="message" required className="mb-2 rounded-md text-black"></textarea>
         <input
           type="hidden"
           name="redirect"
           value="https://web3forms.com/success"
-          className="mb-5 w-9/12 rounded-md"
+          className="mb-2 rounded-md"
         />
 
         <button className="mt-8 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">

@@ -16,17 +16,14 @@ export default function FourZeroFour() {
           <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
             Audio Services
           </h1>
+
+          <hr />
           <div className="my-5">
-            <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+            <h2 className="mb-3 text-center text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
               Mastering
             </h2>
-            {/* <p className="my-3">
-              Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
-              egestas. Fusce sit amet congue ipsum. Donec at mi tortor. Vestibulum eget varius nisi.
-              Pellentesque eleifend vestibulum velit nec tincidunt. Donec rhoncus nulla vel lacus
-              rhoncus bibendum.
-            </p> */}
-            <ul className="list-inside list-disc">
+
+            <ul className="list-inside list-disc font-thin">
               <li>1 track $92.00 NZD</li>
               <li>2 tracks $165.00 NZD</li>
               <li>3 tracks $240.00 NZD</li>
@@ -36,7 +33,7 @@ export default function FourZeroFour() {
           </div>
           <hr />
           <div className="my-5">
-            <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+            <h2 className="mb-3 text-center text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
               Stem Mastering
             </h2>
             {/* <p className="my-3">
@@ -45,18 +42,22 @@ export default function FourZeroFour() {
               Pellentesque eleifend vestibulum velit nec tincidunt. Donec rhoncus nulla vel lacus
               rhoncus bibendum.
             </p> */}
-            <ul className="list-inside list-disc">
+            <ul className="list-inside list-disc font-thin">
               <li>Up to 8 stems: $130.00 – $210.00 NZD</li>
-              <li>Or get in touch for a bespoke quote</li>
+              <li>
+                <Link className="text-lime-400" href="/contact">
+                  Get in touch for custom work
+                </Link>{' '}
+              </li>
             </ul>
           </div>
           <hr />
 
           <div className="my-5">
-            <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+            <h2 className="mb-3 text-center text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
               The Works
             </h2>
-            <p className="my-3">
+            <p className="my-3 font-thin">
               Mix your song from the ground up AND give it the final mastering polish, for maximum
               sonic control and best possible end result. No track count limit. The rate depends on
               the amount of stems. For a quote, please send stem count and a reference mix.{' '}
@@ -68,10 +69,10 @@ export default function FourZeroFour() {
           <hr />
 
           <div className="my-5">
-            <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+            <h2 className="mb-3 text-center text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
               Master & Track Feedback
             </h2>
-            <p className="my-3">
+            <p className="my-3 font-thin">
               A detailed feedback, review and summary of how your track is performing in either the
               Mix, Master and Arrangement/Composition to achieve best results. Mixdown and
               arrangement suggestions for mastering, as well as commenting on your mastering if
@@ -84,10 +85,10 @@ export default function FourZeroFour() {
           <hr />
 
           <div className="my-5">
-            <h2 className="text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
+            <h2 className="mb-3 text-center text-2xl font-bold leading-9 text-gray-900 dark:text-gray-100 sm:text-2xl sm:leading-10 md:text-2xl md:leading-14">
               Physical Studio Time
             </h2>
-            <p className="my-3">
+            <p className="my-3 font-thin">
               Wanting to sample some synths? Have a hands on tutorial with analog gear? Run some
               audio through analog gear? Book in physical studio time with me. Alternatively, see{' '}
               <Link className="text-lime-400" href="/tuition">
@@ -106,7 +107,6 @@ export default function FourZeroFour() {
             </button>
           </p>
         </div>
-        <p className="font-emphasis text-center">All prices are GST inclusive </p>
       </div>
     </>
   )
