@@ -49,7 +49,7 @@ export default function Home({ posts }) {
           <Image src="/static/images/FPlogo.png" alt="logo" width={100} height={115} />
         </div> */}
 
-        <div className="text-md mt-2 mb-4 px-7 text-justify">
+        <div className="text-md mt-2 mb-4 px-7 font-thin leading-tight">
           "Obeisant (Sebastian Gawlik) is a Drum ‘n’ Bass and Electronica Producer, Recording,
           Mixing, & Mastering Engineer, and Educator from Hamilton, New Zealand. Sebastian promises
           top quality Mixing & Mastering services through a well-trained ear. He uses the best
