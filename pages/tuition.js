@@ -9,11 +9,11 @@ export default function Tuition() {
       <div>
         <div className="space-x-2 pt-6 pb-8 md:space-y-5">
           <p>
-            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:my-12 sm:w-1/2 sm:py-2">
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:my-12 sm:w-1/2 sm:py-2 lg:my-2">
               Contact Now
             </button>
           </p>
-          <h1 className="py-2 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="py-2 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 lg:text-5xl">
             Tuition
           </h1>
 
@@ -51,13 +51,13 @@ export default function Tuition() {
               </li>
               <li className="my-2">The art of sampling</li>
               <li>Music-theory hacks for computer music production and basic music-theory</li>
-              <li className="my-2 sm:mb-24">
+              <li className="my-2 sm:mb-24 lg:mb-0">
                 Don’t see what you’re looking for? Make an enquiry and I’m sure we can help you out!
               </li>
             </ul>
           </div>
           <p>
-            <button className="my=8 my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:mt-8 sm:w-1/2 sm:py-2">
+            <button className="my=8 my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:mt-8 sm:w-1/2 sm:py-2 lg:my-2">
               Contact Now
             </button>
           </p>

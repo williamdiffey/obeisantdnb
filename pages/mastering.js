@@ -13,7 +13,7 @@ export default function FourZeroFour() {
               Contact Now
             </button>
           </p>
-          <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+          <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 lg:text-5xl">
             Audio Services
           </h1>
 

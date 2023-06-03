@@ -2,7 +2,7 @@ import Image from './Image'
 import Link from './Link'
 
 const Card = ({ title, description, imgSrc, href }) => (
-  <div className="md p-4 md:w-1/2" style={{ maxWidth: '544px' }}>
+  <div className="p-4 sm:w-1/2 md:w-1/3 lg:w-1/3" style={{ maxWidth: '544px' }}>
     <div
       className={`${
         imgSrc && 'h-full'

@@ -19,7 +19,7 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
   return (
     <>
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+        <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14 lg:text-5xl">
           Media
         </h1>
         {/* <div className="space-y-2 pt-6 pb-8 md:space-y-5">
@@ -50,12 +50,15 @@ export default function ListLayout({ posts, title, initialDisplayPosts = [], pag
             </svg>
           </div>
         </div> */}
-        <ul>
+        <ul className="justify-between lg:flex lg:flex-wrap">
           {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
             return (
-              <li key={slug} className="my-3 rounded-lg border border-lime-400 py-4 ">
+              <li
+                key={slug}
+                className="rounded-lg border border-lime-400 py-4 lg:my-3 lg:mx-3 lg:w-80 lg:justify-between"
+              >
                 <article className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                   <dl>
                     <dt className="sr-only">Published on</dt>
