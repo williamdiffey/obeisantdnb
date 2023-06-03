@@ -26,7 +26,7 @@ export default function About({ authorDetails }) {
         />
       </div>
       <p>
-        <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+        <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:mt-8 sm:mt-8 sm:w-1/2 sm:w-1/2 sm:py-2 sm:py-2 sm:py-0">
           Contact Now
         </button>
       </p>

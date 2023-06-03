@@ -9,7 +9,7 @@ export default function FourZeroFour() {
       <div>
         <div className="space-x-2 px-2  pt-6 pb-8 md:space-y-5">
           <p>
-            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:mt-8 sm:w-1/2 sm:py-2 sm:py-0">
               Contact Now
             </button>
           </p>
@@ -102,7 +102,7 @@ export default function FourZeroFour() {
           </div>
           <hr />
           <p>
-            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:mt-8 sm:w-1/2 sm:py-2">
               Contact Now
             </button>
           </p>

@@ -24,13 +24,23 @@ export default function Home({ posts }) {
         Obeisant
       </h1> */}
 
-      <div className="flex justify-center">
+      <div className="flex justify-center sm:my-16">
         <Image
-          className="rounded-xl"
+          className=""
           src="/static/images/SebSpire.jpg"
           alt="photo of Seb in front of a spire"
           width={400}
           height={260}
+        />
+      </div>
+
+      <div className="hidden justify-center sm:flex">
+        <Image
+          className=""
+          src="/static/images/logowhite.png"
+          alt="obeisant logo"
+          width={400}
+          height={60}
         />
       </div>
 
@@ -39,9 +49,9 @@ export default function Home({ posts }) {
         <Image src="/static/images/FPlogo.png" alt="logo" width={200} height={230} />
       </div> */}
 
-      <h1 className="text-1 animate-glitch py-2 text-center uppercase leading-10 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-xl md:leading-14">
+      <h2 className="text-1 animate-glitch py-2 text-center uppercase leading-10 text-lime-400 dark:text-lime-400 sm:my-8">
         Mixing | Mastering | Tuition
-      </h1>
+      </h2>
 
       {/* desktop logo */}
       <div className="flex">
@@ -49,7 +59,7 @@ export default function Home({ posts }) {
           <Image src="/static/images/FPlogo.png" alt="logo" width={100} height={115} />
         </div> */}
 
-        <div className="text-md mt-2 mb-4 px-7 font-thin leading-tight">
+        <div className="text-md mt-2 mb-4 px-7 font-thin leading-tight sm:mx-32 sm:leading-loose">
           Obeisant (Sebastian Gawlik) is a Drum n Bass and Electronica Producer, Recording, Mixing,
           & Mastering Engineer, and Educator from Hamilton, NZ. Sebastian promises top quality
           Mixing & Mastering services using the industry leading tools, with a selection of
@@ -70,7 +80,7 @@ export default function Home({ posts }) {
         </div>
       </div>
 
-      <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+      <button className="ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:mt-8 sm:w-1/2 sm:py-2">
         <Link href="/contact">Contact Now</Link>
       </button>
     </>

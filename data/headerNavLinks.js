@@ -2,7 +2,7 @@ const headerNavLinks = [
   // { href: '/tags', title: 'Tags' },
 
   { href: '/contact', title: 'Contact' },
-  { href: '/mastering', title: 'Mixing&Mastering' },
+  { href: '/mastering', title: 'Mix/Master' },
   { href: '/tuition', title: 'Tuition' },
   { href: '/blog', title: 'Media' },
   { href: '/projects', title: 'Discography' },

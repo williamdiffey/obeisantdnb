@@ -18,14 +18,25 @@ const LayoutWrapper = ({ children }) => {
               <div className="flex items-center justify-between">
                 {/* <div className="mr-3 sm:hidden md:flex"> */}
                 {/* <Logo /> */}
+                <div className="sm:hidden">
+                  <Image
+                    className="shrink-0"
+                    src="/static/images/logowhite.png"
+                    alt="obeisant logo in white"
+                    width={4697}
+                    height={683}
+                  />
+                </div>
 
-                <Image
-                  className="shrink-0"
-                  src="/static/images/logo.png"
-                  alt="obeisant logo"
-                  width={4697}
-                  height={683}
-                />
+                <div className="hidden sm:flex">
+                  <Image
+                    className="shrink-0"
+                    src="/static/images/logo.png"
+                    alt="obeisant logo"
+                    width={4697}
+                    height={683}
+                  />
+                </div>
                 {/* </div> */}
                 {/* {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">

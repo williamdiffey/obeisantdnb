@@ -9,7 +9,7 @@ export default function Tuition() {
       <div>
         <div className="space-x-2 pt-6 pb-8 md:space-y-5">
           <p>
-            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:my-12 sm:w-1/2 sm:py-2">
               Contact Now
             </button>
           </p>
@@ -17,7 +17,7 @@ export default function Tuition() {
             Tuition
           </h1>
 
-          <div className="font-thin">
+          <div className="font-thin sm:leading-loose">
             <p className="my-3 text-justify leading-tight">
               Sebastian possesses years of one-to-one tuition and workshop hosting experience, with
               a clear, well-rounded manner of communication, explanation, and examples given.
@@ -51,19 +51,16 @@ export default function Tuition() {
               </li>
               <li className="my-2">The art of sampling</li>
               <li>Music-theory hacks for computer music production and basic music-theory</li>
-              <li className="my-2">
+              <li className="my-2 sm:mb-24">
                 Don’t see what you’re looking for? Make an enquiry and I’m sure we can help you out!
               </li>
             </ul>
           </div>
           <p>
-            <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+            <button className="my=8 my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:mt-8 sm:w-1/2 sm:py-2">
               Contact Now
             </button>
           </p>
-          <hr />
-
-          <p className="font-emphasis mt-5 text-center">All prices are GST inclusive </p>
         </div>
       </div>
     </>
