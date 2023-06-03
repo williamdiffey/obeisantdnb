@@ -12,21 +12,21 @@ const LayoutWrapper = ({ children }) => {
   return (
     <SectionContainer>
       <div className="flex h-screen flex-col justify-between">
-        <header className="flex items-center justify-between py-10">
+        <header className="flex items-center justify-between pt-4">
           <div>
             <Link href="/" aria-label={siteMetadata.headerTitle}>
               <div className="flex items-center justify-between">
-                <div className="mr-3 sm:hidden md:flex">
-                  {/* <Logo /> */}
+                {/* <div className="mr-3 sm:hidden md:flex"> */}
+                {/* <Logo /> */}
 
-                  <Image
-                    className="shrink-0"
-                    src="/static/images/logo.png"
-                    alt="obeisant logo"
-                    width={4697}
-                    height={683}
-                  />
-                </div>
+                <Image
+                  className="shrink-0"
+                  src="/static/images/logo.png"
+                  alt="obeisant logo"
+                  width={4697}
+                  height={683}
+                />
+                {/* </div> */}
                 {/* {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">
                     {siteMetadata.headerTitle}

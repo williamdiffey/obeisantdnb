@@ -9,7 +9,7 @@ export default function Contact() {
       <h1 className="py-4 text-center text-3xl uppercase leading-9 text-lime-400 dark:text-lime-400 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
         Contact Us
       </h1>
-      <p className="my-3 text-center">
+      <p className="my-2 px-7">
         Whatever your needs, submit a message below and we'll get right back to you
       </p>
 

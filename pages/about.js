@@ -13,16 +13,18 @@ export default function About({ authorDetails }) {
 
   return (
     <div>
-      <p>
-        <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
+      {/* <p>
+        <button className="mt- ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
           Contact Now
         </button>
-      </p>
-      <MDXLayoutRenderer
-        layout={frontMatter.layout || DEFAULT_LAYOUT}
-        mdxSource={mdxSource}
-        frontMatter={frontMatter}
-      />
+      </p> */}
+      <div className="px-2">
+        <MDXLayoutRenderer
+          layout={frontMatter.layout || DEFAULT_LAYOUT}
+          mdxSource={mdxSource}
+          frontMatter={frontMatter}
+        />
+      </div>
       <p>
         <button className="my-3 ml-auto mr-auto block w-3/4 rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0">
           Contact Now
