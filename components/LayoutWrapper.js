@@ -18,25 +18,15 @@ const LayoutWrapper = ({ children }) => {
               <div className="flex items-center justify-between">
                 {/* <div className="mr-3 sm:hidden md:flex"> */}
                 {/* <Logo /> */}
-                <div className="sm:hidden">
-                  <Image
-                    className="shrink-0"
-                    src="/static/images/logowhite.png"
-                    alt="obeisant logo in white"
-                    width={4697}
-                    height={683}
-                  />
-                </div>
 
-                <div className="hidden sm:flex">
-                  <Image
-                    className="shrink-0"
-                    src="/static/images/logo.png"
-                    alt="obeisant logo"
-                    width={4697}
-                    height={683}
-                  />
-                </div>
+                <Image
+                  className="shrink-0"
+                  src="/static/images/logowhite.png"
+                  alt="obeisant logo in white"
+                  width={4697}
+                  height={683}
+                />
+
                 {/* </div> */}
                 {/* {typeof siteMetadata.headerTitle === 'string' ? (
                   <div className="hidden h-6 text-2xl font-semibold sm:block">
@@ -49,12 +39,12 @@ const LayoutWrapper = ({ children }) => {
             </Link>
           </div>
           <div className="flex items-center text-base leading-5">
-            <div className="hidden sm:block">
+            <div className="hidden items-center lg:flex">
               {headerNavLinks.map((link) => (
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="flex-col p-1 font-extralight uppercase text-gray-900 dark:text-gray-100 sm:px-1 md:px-2"
+                  className="p-1 text-center font-extralight uppercase text-gray-900 dark:text-gray-100 sm:px-1 md:px-2 lg:px-4"
                 >
                   {link.title}
                 </Link>
